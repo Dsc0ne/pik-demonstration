@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AUTOWER - Интеллектуальный налив для химпрома</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap&subset=cyrillic" rel="stylesheet"/>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header__container container">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">О системе</li>
+                <li class="nav__item">Преимущества</li>
+                <li class="nav__item">В цифрах</li>
+                <li class="nav__item">Сравнение</li>
+                <li class="nav__item">Отзывы</li>
+                <li class="nav__item">Контакты</li>
+                <li class="nav__item nav__item--cta">
+                    <button class="btn btn--primary">Получить презентацию</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <section class="info">
+        <div class="info__container container">
+            <h1 class="info__title">
+                <span class="info__title-accent">ИНТЕЛЛЕКТУАЛЬНЫЙ НАЛИВ</span><br/>
+                для химпрома<br/> без риска переливов и статики
+            </h1>
+            <p class="info__description">
+                Роботизированная система с искусственным интеллектом, сокращающая время операций на
+                40% и исключающая человеческий фактор.
+            </p>
+
+            <div class="features">
+                <h2 class="features__title">Преимущества</h2>
+                <div class="features__list">
+                    <div class="feature">
+                        <img class="feature__icon" src="images/advantage-list-img1.svg" alt="точность"/>
+                        <span class="feature__text">
+                            Точность позиционирования <span class="feature__highlight">±1 мм</span>
+                        </span>
+                    </div>
+                    <div class="feature">
+                        <img class="feature__icon" src="images/advantage-list-img2.svg" alt="старт"/>
+                        <span class="feature__text">
+                            Старт операции за <span class="feature__highlight">15</span> секунд
+                        </span>
+                    </div>
+                    <div class="feature">
+                        <img class="feature__icon" src="images/advantage-list-img3.svg" alt="безопасность"/>
+                        <span class="feature__text">Безопасность и герметичность</span>
+                    </div>
+                    <div class="feature">
+                        <img class="feature__icon" src="images/advantage-list-img4.svg" alt="24/7"/>
+                        <span class="feature__text">
+                            <span class="feature__highlight">24/7</span> без ошибок
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="request">
+        <div class="request__container container--narrow">
+            <form class="form" action="#" method="post">
+                <div class="form__field">
+                    <label class="form__label" for="name">Имя</label>
+                    <input class="form__input" id="name" name="name" type="text" inputmode="text"/>
+                </div>
+                <div class="form__field">
+                    <label class="form__label" for="phone">Телефон</label>
+                    <input class="form__input" id="phone" name="phone" type="tel" inputmode="tel"/>
+                </div>
+                <button class="btn btn--form" type="submit">Получить консультацию</button>
+            </form>
+        </div>
+    </aside>
+
+    <section class="about">
+        <div class="about__container container">
+            <h2 class="about__title">ЧТО ТАКОЕ ИИ-НАЛИВ AUTOWER</h2>
+            <div class="about__content">
+                <img class="about__image" src="images/about-img.svg" alt="AUTOWER"/>
+                <div class="about__text">
+                    <p>
+                        <span class="about__brand">AUTOWER</span> - это роботизированная система,
+                        которая выполняет налив жидких химических веществ без участия человека.
+                        Камера и искусственный интеллект распознают горловину цистерны, система
+                        точно позиционируется по осям X/Y/Z и начинает дозированный налив.
+                    </p>
+                    <p>
+                        Датчики уровня, давления и заземления контролируют процесс, предотвращая
+                        переливы, утечки и накопление статики.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how">
+        <div class="how__container container">
+            <h2 class="how__title">КАК ИИ УПРАВЛЯЕТ ПРОЦЕССОМ</h2>
+            <div class="how__content">
+                <div class="how__text">РАСПОЗНАВАНИЕ → ПОЗИЦИОНИРОВАНИЕ → НАЛИВ → КОНТРОЛЬ → ОТЧЁТ</div>
+                <div class="how__video">
+                    <iframe class="how__iframe" src="https://vkvideo.ru/video_ext.php?oid=-177304549&id=456239878&hash=70d24cb78bf99bc6&hd=3" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
